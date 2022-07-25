@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+.shopPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shopPageBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* position: relative; */
+  font-size: 70px;
+  font-weight: 700;
+  width: 100%;
+  height: 50vh;
+  background: linear-gradient(rgba(10, 10, 10, 0.338), rgba(5, 0, 0, 0.9)),
+    url(../../Assets/Images/harris-farm-0004.png) no-repeat;
+  font-family: 'Londrina Outline', sans-serif;
+  opacity: 0.5;
+  margin-left: 0;
+}
+
+.shopPageBanner img {
+  width: 100%;
+  height: 100%;
+}
+.heroContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+.shopPageDepartments {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  width: 1138px;
+  height: 156px;
+  left: 150px;
+  margin-top: 30px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.allShops {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 1141px;
+  left: 150px;
+  top: 683px;
+}
+.shopsCount {
+  margin: 30px 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 33px;
+  color: #43b028;
+}
+
+/* Pagination */
+.pagination {
+  margin: 30px;
+}
+.paginationBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+}
+.paginationBtns a {
+  color: #43b028;
+  padding: 10px;
+  cursor: pointer;
+}
+.paginationBtns a:hover {
+  border-radius: 30px;
+  color: white;
+  background-color: #43b028;
+}
+.previousBtn,
+.nextBtn {
+  text-decoration: none;
+  box-shadow: 0px 6px 18px rgba(7, 6, 6, 0.1);
+  border-radius: 30px;
+}
+.paginationActive a {
+  border-radius: 30px;
+  color: white;
+  background-color: #43b028;
+}

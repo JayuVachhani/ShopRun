@@ -1,0 +1,110 @@
+.cartTitle {
+  text-align: center;
+}
+.cartSection {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  justify-content: space-evenly;
+}
+.cartLeft {
+  width: 65%;
+  display: flex;
+  margin: auto;
+}
+.cartRight {
+  width: 30%;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.qty {
+  width: 30%;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+.gst {
+  color: grey;
+  font-size: 12px;
+}
+.cartItems {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.cartItemImage {
+  width: 15vh;
+  height: 15vh;
+}
+.cartTable {
+  margin-top: 3%;
+}
+.OverviewCartItems {
+  width: 70%;
+  padding: 30px;
+  background: rgb(242, 246, 249);
+  border-radius: 10px;
+  font-size: 25px;
+}
+.overview {
+  display: flex;
+  margin-bottom: -20px;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* line-height:5vh; */
+}
+.overviewTitle {
+  text-align: center;
+  margin-bottom: -10px;
+}
+.tableHead {
+  color: white;
+  font-weight: 600;
+  background: #43b028;
+}
+.tableHead .tableHeading {
+  font-size: 15px;
+}
+.cartItemsTitle {
+  font-size: 50px;
+}
+.removeItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+}
+.paymentBtn {
+  width: 100%;
+  background-color: #43b028;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.emptyBagSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goback {
+  background-color: #43b028;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.goback a {
+  text-decoration: none;
+  color: white;
+}

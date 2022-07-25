@@ -1,0 +1,129 @@
+.productDetailsPage {
+  width: 100%;
+  background: #ffffff;
+}
+.productDetailsPageNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.backToPreviousPage {
+  display: flex;
+}
+.backToPreviousPage a {
+  display: flex;
+  color: #43b028;
+  text-decoration: none;
+}
+
+.productDetails {
+  display: flex;
+  margin-top: 50px;
+}
+.productImage {
+  width: 488px;
+  height: 536px;
+  left: 150px;
+  top: 213px;
+}
+.productImage img {
+  width: 400px;
+  height: 400px;
+  margin-left: 29vh;
+  top: 202px;
+}
+.productDetails {
+  left: 0;
+}
+.productDetails .productInfo {
+  width: 454px;
+  height: 436px;
+  margin-left: 30vh;
+  top: 213px;
+}
+.productInformation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+.stockStatus,
+.sellerName {
+  color: #43b028;
+}
+.manageItem {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 5px;
+}
+.productPrice {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+.productPrice h1 span,
+.pricePerKg span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.productPrice .pricePerKg {
+  color: rgb(183, 181, 181);
+  font-weight: 400;
+}
+.quantitySection {
+  width: 70%;
+}
+.decreaseBtn,
+.increaseBtn {
+  cursor: pointer;
+}
+.manage {
+  width: 109%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 20px;
+  color: black;
+}
+
+.relatedProducts {
+  margin: 40px;
+}
+.quantityandCart {
+  display: flex;
+  margin: 10px 0;
+}
+.productCartBtn {
+  margin-left: -40%;
+}
+.productCartBtn button {
+  background-color: #43b028;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+.favouriteSection {
+  display: flex;
+  align-items: center;
+}
+.productFavouriteVector {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 0px 6px 18px rgba(7, 6, 6, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.productFavouriteVector:hover {
+  color: white;
+  background-color: #43b028;
+}

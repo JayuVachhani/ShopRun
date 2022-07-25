@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  gap: 5vh;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(7, 6, 6, 0.06);
+  background-color: white;
+}
+
+.companyLogo {
+  background: url('../../Assets/Images/shoprun\ 1.png') no-repeat;
+}
+.deliveryAsap {
+  width: 18%;
+  box-shadow: 0px 5px 10px rgba(7, 6, 6, 0.06);
+  border-radius: 30px;
+}
+.delivery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  outline: none;
+  padding: 10px;
+}
+.delivery input {
+  margin-left: 8px;
+  width: 100%;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  font-size: 15px;
+}
+.shopGroup,
+.LoginContainer,
+.favourites,
+.bags,
+.shop,
+.asap {
+  display: flex;
+  align-self: center;
+  gap: 3px;
+}
+.shopGroup a {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.favouriteQty,
+.bagQty {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin-top: -17px;
+  margin-left: 18px;
+  box-shadow: 0px 7px 15px rgba(11, 9, 9, 0.08);
+  border-radius: 50%;
+  padding: 0 5px;
+  width: 10px;
+}

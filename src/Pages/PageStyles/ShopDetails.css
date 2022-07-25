@@ -1,0 +1,94 @@
+.heroBackgroundImage img {
+  position: absolute;
+  width: 100%;
+}
+.heroBackgroundImageOver {
+  width: 100%;
+  height: 62vh;
+  color: white;
+  position: relative;
+  background: url('../../Assets/Images/Rectangle\ 100.png');
+}
+
+.heroBackgroundImageOver .heroContect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heroContect img {
+  display: flex;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.ratingSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shopDetailsBtns {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+.shopDetailsBtns button {
+  width: 20vh;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.shopDetailsSearch {
+  margin: 20px 0 70px 0;
+}
+.shopDetailsSearch input {
+  width: 30vh;
+  border-radius: 30px 0 0 30px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.shopDetailsSearch button {
+  width: 15vh;
+  padding: 10px;
+  border-radius: 0px 30px 30px 0px;
+  background-color: #43b028;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.categoryBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10vh;
+}
+.categoryBtns img {
+  background: transparent;
+}
+.Items {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.Items:hover {
+  color: white;
+  background: white;
+  background: linear-gradient(147.67deg, #43b028 24.24%, #fbce2e 145.04%);
+}
+.fruitsCarousel,
+.vegetablesCarousel {
+  margin: 10vh;
+}
+.shopBtn:hover {
+  color: white;
+  background-color: #32de08;
+}
